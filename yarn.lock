@@ -21,7 +21,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.14.5.tgz#8ef4c18e58e801c5c95d3c1c0f2874a2680fadea"
   integrity sha512-kixrYn4JwfAVPa0f2yfzc2AWti6WRRyO3XjWW5PJAvtE11qhSayrrcrEnee05KAtNaPC+EwehE8Qt1UedEVB8w==
 
-"@babel/core@^7.1.0", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
+"@babel/core@^7.1.0", "@babel/core@^7.14.6", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.14.6.tgz#e0814ec1a950032ff16c13a2721de39a8416fcab"
   integrity sha512-gJnOEWSqTk96qG5BoIrl5bVtc23DCycmIePPYnamY9RboYdI4nFy5vAQMSl81O5K/W0sLDWfGysnOECC+KUUCA==
@@ -1516,6 +1516,13 @@ babel-plugin-polyfill-regenerator@^0.2.2:
   integrity sha512-Goy5ghsc21HgPDFtzRkSirpZVW35meGoTmTOb2bxqdl60ghub4xOidgNTHaZfQ2FaxQsKmwvXtOAkcIS4SMBWg==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
+
+"babel-plugin-svelte-inline-compile@https://github.com/drewchandler/babel-plugin-svelte-inline-compile.git":
+  version "0.0.1"
+  resolved "https://github.com/drewchandler/babel-plugin-svelte-inline-compile.git#080d4843479673ef782611ff8732f9c64f287a34"
+  dependencies:
+    "@babel/core" "^7.14.6"
+    svelte "^3.38.2"
 
 babel-preset-current-node-syntax@^1.0.0:
   version "1.0.1"
@@ -3672,7 +3679,7 @@ svelte-jester@^1.7.0:
   resolved "https://registry.yarnpkg.com/svelte-jester/-/svelte-jester-1.7.0.tgz#b773e6a3857b3867086f81ea24d94689e5f78aa1"
   integrity sha512-eWJSmxGXR/jetU+gpuAvrSEZT7PpNxrhV2GoUm/WQUtXFjGJcy6sZTq3kKaUz7q8VddHU1/yt9cxDRxo8IUsLA==
 
-svelte@^3.34.0:
+svelte@^3.34.0, svelte@^3.38.2:
   version "3.38.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
   integrity sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==

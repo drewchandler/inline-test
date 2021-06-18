@@ -1,9 +1,8 @@
-import { render} from '@testing-library/svelte'
+import { render } from "@testing-library/svelte";
+import Button from "./Button";
 
-import Button from './Button'
+test("shows proper heading when rendered", () => {
+  const { getByText } = render(svelte`<Button>Hello World!</Button>`);
 
-test('shows proper heading when rendered', () => {
-  const { getByText } = render(Button)
-
-  expect(getByText('Hello World!')).toBeInTheDocument()
-})
+  expect(getByText("Hello World!")).toBeInTheDocument();
+});

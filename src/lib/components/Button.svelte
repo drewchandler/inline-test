@@ -1,1 +1,1 @@
-<button>Hello World!</button>
+<button><slot /></button>

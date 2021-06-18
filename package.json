@@ -23,6 +23,7 @@
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.34.0",
+    "babel-plugin-svelte-inline-compile": "https://github.com/drewchandler/babel-plugin-svelte-inline-compile.git",
     "svelte-jester": "^1.7.0"
   },
   "type": "module",
