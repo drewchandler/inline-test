@@ -1,1 +1,1 @@
-<button><slot /></button>
+<button on:click><slot /></button>
