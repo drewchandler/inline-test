@@ -1,4 +1,5 @@
 import { render, fireEvent } from "@testing-library/svelte";
+// eslint-disable-next-line no-unused-vars
 import Button from "./Button";
 
 test("shows slot content", () => {
